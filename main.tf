@@ -48,7 +48,7 @@ resource "aws_s3_bucket" "drift_test" {
   bucket = "terraform-drift-test-bucket"
   tags = {
     Environment = "locking-test"
-    Project     = "drift-detection11"
+    Project     = "drift-detection12"
   }
 }
 
