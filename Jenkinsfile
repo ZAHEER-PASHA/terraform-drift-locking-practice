@@ -2,6 +2,10 @@ pipeline {
 
     agent any
 
+    options {
+        disableConcurrentBuilds()
+    }
+
     stages {
 
         stage('Terraform Init') {
